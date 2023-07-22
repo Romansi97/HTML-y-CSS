@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia01_Ej6</title>
+    <!--6) Por último, vamos a crear un formulario para registrar un usuario que se vea de la 
+siguiente manera:-->
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="">
+        <label for="nombre"><h2>Nombre de usuario</h2></label>
+        <input type="text" name="nombre">
+        <label for="contraseña"><h2>Contraseña</h2></label>
+        <input type="password" name="contraseña">
+        <label for="edad"><h2>Edad</h2></label>
+        <input type="number" name="edad">
+        <label for="nacimiento"><h2>Fecha de nacimiento</h2></label>
+        <input type="date" name="nacimiento">        
+        <label for="sexo"><h2>Sexo del usuario</h2></label>
+        <input type="radio" name="sexo" value="1">Masculino
+        <input type="radio" name="sexo" value="2">Femenino
+        <input type="radio" name="sexo" value="1">Otros
+        <label for="pais"><h2>Pais de nacimiento del usuario</h2></label>
+        <select name="pais" id="pais"> 
+            <option>Argentina</option> 
+            <option>Brasil</option> 
+            <option>Chile</option> 
+            <option>Colombia</option>
+        </select><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
