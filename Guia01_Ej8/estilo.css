@@ -1,0 +1,16 @@
+div :link {
+    font-size: 40px;
+    color: #CC0000;
+  }
+
+  /* Estado hover */
+  div :hover {
+    font-size: 50px;
+    background-color: #CC0000;
+    color: #FFF;
+  }
+
+  /* Enlaces visitados */
+  div :visited {
+    color: #CCC;
+  }
