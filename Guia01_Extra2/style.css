@@ -1,0 +1,51 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+    border-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cambios{
+    background-color:  #E6F3FF;
+}
+.ComprayVenta{
+    background-image: url(./Images/fondo_gris.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pintado{
+    background-color:  #FFFFCC;
+}
+#euro{
+    background-image: url(./Images/euro.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+#dolar{
+    background-image: url(./Images/dolar.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+#libra{
+    background-image: url(./Images/libra.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+#yen{
+    background-image: url(./Images/yen.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+
+/* Si quiero pintar solo números pares:
+table tr td:nth-child(even){ //Es una seudo clase
+    background-color:  #FFFFCC;
+}
+Solo números impares:
+table tr td:nth-child(odd){ //Es una seudo clase
+    background-color: cornsilk;
+}
